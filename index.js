@@ -64,4 +64,20 @@ console.log(multiply);
 console.log(divide);
 console.log(power);
 
+const title = document.querySelector("#title");
+title.innerHTML = "Hi! from JS";
+title.style.color = 'red';
+document.title = "I owe you";
+
+
+function handleResize() {
+    console.log("I have been resized");
+}
+
+function handleCilck() {
+    title.style.color = "white";
+}
+
+window.addEventListener("resize", handleResize);
+title.addEventListener("click", handleCilck)
 
