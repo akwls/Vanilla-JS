@@ -1,0 +1,63 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Varela Round", sans-serif;
+}
+body {
+    background-image: url(../image/4.jpg);
+}
+.js-clock {
+    margin-top: 150px;
+    text-align: center;
+}
+.js-clock h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 150px;
+    font-weight: lighter;
+    color: #A3F056;
+    text-shadow: 0 0 1px #AAEB32, 
+        0 0 5px #AAEB32, 
+        0 0 10px #AAEB32, 
+        0 0 20px #AAEB32, 
+        0 0 40px #AAEB32, 
+        0 0 70px #AAEB32;
+}
+.js-form, .js-toDoForm {
+    text-align: center;
+}
+.js-form {
+    margin-top: 30px;
+}
+.btn {
+    cursor: pointer;
+}
+.clicked {
+    color: #7f8c8d;
+}
+.form,
+.greetings {
+    display: none;
+}
+.showing {
+    display: block;
+}
+input {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    text-align: center;
+}
+input:focus {
+    outline: none;
+}
+.line {
+    width: 300px;
+    height: 5px;
+    background-color: #FFE633;
+    border-radius: 15px;
+    box-shadow: 
+        0 0 5px #FFE633, 
+        0 0 10px #FFE633, 
+        0 0 20px #FFE633,
+        0 0 40px #FFE633;
+}
