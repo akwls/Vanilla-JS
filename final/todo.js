@@ -62,6 +62,9 @@ function loadToDos() {
 }
 
 function init() {
+    if(localStorage.getItem("currentUser") !== null) {
+        toDoForm.classList.remove("not-showing");
+    }
     loadToDos();
     toDoForm.addEventListener("submit", handleSubmit);
 }
