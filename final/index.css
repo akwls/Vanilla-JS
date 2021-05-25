@@ -5,6 +5,7 @@
 }
 body {
     background-image: url(../image/4.jpg);
+    overflow: auto;
 }
 .js-clock {
     margin-top: 150px;
@@ -75,3 +76,23 @@ input:focus {
 .js-toDoForm {
     margin-top: 30px;
 }
+.js-toDoList {
+    margin-top: 30px;
+    font-size: 30px;
+    padding-left: 650px;
+    list-style: none;
+    color: white;
+}
+li button {
+    font-size: 20px;
+    margin-right: 20px;
+}
+.js-weather {
+    position: fixed;
+    right: 0;
+    top: 0;
+    color: white;
+    text-align: center;
+    line-height: 150%;
+}
+
