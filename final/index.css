@@ -6,6 +6,7 @@
 body {
     background-image: url(../image/4.jpg);
     overflow: auto;
+    padding-bottom: 30px;
 }
 .js-clock {
     margin-top: 150px;
@@ -75,6 +76,9 @@ input:focus {
 }
 .js-toDoForm {
     margin-top: 30px;
+}
+input {
+    color: white;
 }
 .js-toDoList {
     margin-top: 30px;
