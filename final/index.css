@@ -99,4 +99,38 @@ li button {
     text-align: center;
     line-height: 150%;
 }
+.js-form input {
+    color: #CE64F0;
+}
+.js-from input::placeholder {
+    text-shadow: none;
+}
+.js-toDoList li button {
+    border: none;
+    background: none;
+    color: #F09D01;
+    text-shadow: 0 0 1px #F03B01,
+        0 0 5px #F03B01, 
+        0 0 10px #F03B01,
+        0 0 20px #F03B01;
+}
+.js-toDoList li {
+    color: #0CC7FF;
+    text-shadow: 0 0 1px #0CB5FF, 
+        0 0 5px #0CB5FF, 
+        0 0 10px #0CB5FF,
+        0 0 20px #0CB5FF;
+}
+.js-toDoForm input {
+    color: #0CC7FF;
+}
+.js-weather {
+    color: #EFF0F2;
+    text-shadow: 0 0 1px #E8E9EB, 
+        0 0 5px #E8E9EB, 
+        0 0 10px #E8E9EB,
+        0 0 20px #E8E9EB;
+    margin-top: 20px;
+    margin-right: 20px;
+}
 
